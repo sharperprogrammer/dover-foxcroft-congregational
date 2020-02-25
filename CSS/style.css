@@ -1,8 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    /* text-align: center; */
-    color: white;
     font-family: sans-serif;
 }
 
@@ -13,6 +11,7 @@ body {
 #title {
     margin: 20px;
     text-align: center;
+    color: white;
 }
 
 #container {
@@ -26,24 +25,62 @@ body {
     align-items: center;
     width: 90%;
     margin: 0 auto;
+    color: white;
+}
+#header-left > img {
+    height: 300px;
+    width: 222px;
+    margin-right: 20px;
+}
+#header-right {
+    padding: 10px;
+}
+#header-right p {
+    text-align: left;
+    font-weight: bold;
+    border: 15px solid #264980;
+    padding: 10px;
 }
 
 #body {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     color: black;
     /* height: 700px; */
 }
-#body * {
+
+#body {
+    background-color: #ECE8DD;
+    color: black;
+}
+
+#body {
     color: black;
 }
 #body-left {
-    margin-right: auto;
+    min-width: 100px;
+    max-width: 250px;
+    padding: 10px;
+
+    /* margin-right: auto; */
     text-align: left;
 }
 #body-right {
     margin-left: auto;
+}
+
+#UCC-logo {
+    width: 104px;
+    height: 123px;
+}
+
+#footer {
+    display: flex;
+    color: white;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 1330px) {
@@ -57,31 +94,13 @@ body {
     }
 }
 @media only screen and (max-width: 890px) {
-    #header {
+    #header, #body {
         flex-direction: column;
+        align-items: center;
     }
-}
-
-#header-left > img {
-    height: 300px;
-    width: 222px;
-    margin-right: 20px;
-}
-
-#header-right {
-    padding: 10px;
-}
-
-#header-right p {
-    text-align: left;
-    font-weight: bold;
-    border: 15px solid #264980;
-    padding: 10px;
-}
-
-#body {
-    background-color: #ECE8DD;
-    color: black;
+    #body-left {
+        margin: 50px auto;
+    }
 }
 
 /* Collapsed (Hamburger) NAVBAR */
