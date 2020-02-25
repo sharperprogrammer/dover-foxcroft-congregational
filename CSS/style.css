@@ -15,7 +15,7 @@ body {
 }
 
 #container {
-    width: 65vw;
+    width: 85vw;
     margin: 0 auto;
 }
 
@@ -23,8 +23,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
+    margin-bottom: 20px;
     color: white;
 }
 #header-left > img {
@@ -47,15 +48,7 @@ body {
     display: flex;
     justify-content: center;
     color: black;
-    /* height: 700px; */
-}
-
-#body {
     background-color: #ECE8DD;
-    color: black;
-}
-
-#body {
     color: black;
 }
 #body-left {
@@ -66,8 +59,19 @@ body {
     /* margin-right: auto; */
     text-align: left;
 }
+#facebook-title {
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
 #body-right {
-    margin-left: auto;
+    min-width: 100px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+#body-right h2 {
+    font-weight: normal;
 }
 
 #UCC-logo {
@@ -85,7 +89,7 @@ body {
 
 @media only screen and (max-width: 1330px) {
     #container {
-        width: 80vw;
+        width: 95vw;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -98,8 +102,13 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    #body-left {
+    #body-left, #body-right {
         margin: 50px auto;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #facebook-iframe {
+        width: 460px;
     }
 }
 
