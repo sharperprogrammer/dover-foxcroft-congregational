@@ -88,14 +88,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+#facebook-iframe-460, 
+#facebook-iframe-400,
+#facebook-iframe-350 { display: none; }
 
-@media only screen and (max-width: 1620px) {
-    /* #header { width: 625px; } */
-}
+/* Screens 890 - 1050px wide */
 @media only screen and (max-width: 1050px) {
     #header { width: 800px; }
     #body { width: 95vw; }
 }
+/* Screens 530-890px wide */
 @media only screen and (max-width: 890px) {
     #header, #body {
         flex-direction: column;
@@ -106,14 +108,26 @@ body {
     #body-left, #body-right { margin: 50px auto; }
     #header-right-text { height: auto; }
 }
+/* Screens 460-530px wide */
 @media only screen and (max-width: 530px) {
-    #facebook-iframe { width: 460px; }
+    #facebook-iframe-460 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-350, 
+    #facebook-iframe-400 { display: none; }
 }
-@media only screen and (max-width: 450px) {
-    #facebook-iframe { width: 420px; }
+/* Screens 400-460px wide */
+@media only screen and (max-width: 460px) {
+    #facebook-iframe-400 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-350, 
+    #facebook-iframe-460 { display: none; }
 }
-@media only screen and (max-width: 420px) {
-    #facebook-iframe { width: 400px; }
+/* Screens 350-400px wide */
+@media only screen and (max-width: 400px) {
+    #facebook-iframe-350 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-400,
+    #facebook-iframe-460 { display: none; }
 }
 
 /* Collapsed (Hamburger) NAVBAR */
