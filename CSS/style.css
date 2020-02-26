@@ -109,6 +109,12 @@ body {
 @media only screen and (max-width: 530px) {
     #facebook-iframe { width: 460px; }
 }
+@media only screen and (max-width: 450px) {
+    #facebook-iframe { width: 420px; }
+}
+@media only screen and (max-width: 420px) {
+    #facebook-iframe { width: 400px; }
+}
 
 /* Collapsed (Hamburger) NAVBAR */
 .hamburger-navigation ul {
