@@ -15,7 +15,6 @@ body {
 }
 
 #container {
-    width: 85vw;
     margin: 0 auto;
 }
 
@@ -23,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 887px;
     margin: 0 auto;
     margin-bottom: 20px;
     color: white;
@@ -42,8 +41,11 @@ body {
     border: 15px solid #264980;
     padding: 10px;
 }
+#header-right-title { margin-bottom: 5px; }
+#header-right-text { height: 220px; }
 
 #body {
+    width: 995px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -87,29 +89,25 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 1330px) {
-    #container {
-        width: 95vw;
-    }
+@media only screen and (max-width: 1620px) {
+    /* #header { width: 625px; } */
 }
-@media only screen and (max-width: 1000px) {
-    #container {
-        width: 95vw;
-    }
+@media only screen and (max-width: 1050px) {
+    #header { width: 800px; }
+    #body { width: 95vw; }
 }
 @media only screen and (max-width: 890px) {
     #header, #body {
         flex-direction: column;
         align-items: center;
     }
-    #body-left, #body-right {
-        margin: 50px auto;
-    }
+    #header { width: 95vw; }
+    #body { max-width: 555px; }
+    #body-left, #body-right { margin: 50px auto; }
+    #header-right-text { height: auto; }
 }
 @media only screen and (max-width: 530px) {
-    #facebook-iframe {
-        width: 460px;
-    }
+    #facebook-iframe { width: 460px; }
 }
 
 /* Collapsed (Hamburger) NAVBAR */
@@ -201,6 +199,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    cursor: pointer;
 }
 
 .dropdown-content {
