@@ -147,7 +147,7 @@ body {
 #ham-nav {
     display: none;
 }
-.hamburger-menu {
+.hamburger-menu-icon {
     position: relative;
     display: none;
     /* align-items: flex-end; */
@@ -168,12 +168,12 @@ body {
 }
 
 @media only screen and (min-width: 880px) {
-    #ham-nav, .hamburger-menu, #ham-nav:checked~ul {
+    #ham-nav, .hamburger-menu-icon, #ham-nav:checked~ul {
         display: none;
     }
 }
 @media only screen and (max-width: 880px) {
-    .hamburger-menu {
+    .hamburger-menu-icon {
         display: flex;
     }
     .nav {
