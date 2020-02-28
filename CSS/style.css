@@ -131,9 +131,6 @@ body {
 }
 
 /* Collapsed (Hamburger) NAVBAR */
-.hamburger-navigation {
-    height: 58px;
-}
 .hamburger-navigation ul {
     list-style-type: none;
     position: absolute;
