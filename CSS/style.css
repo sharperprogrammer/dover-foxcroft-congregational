@@ -194,7 +194,7 @@ body {
     justify-content: center;
 }
 
-.nav li:hover, .dropdown:hover {
+.nav a:hover, .dropdown:hover {
     background-color: #3668FF;
 }
 
@@ -202,7 +202,8 @@ body {
     text-decoration: none;
     color: white;
 }
-.nav li { padding: 20px; }
+.nav a { padding: 20px; }
+.nav .dropbtn a { padding: 0; }
 
 .active {
     background-color: blue;
