@@ -67,7 +67,7 @@
     color: white;
 }
 .nav a { padding: 20px; }
-.nav .dropbtn a { padding: 0; }
+#dropdown-a { padding: 0; }
 .active {
     background-color: blue;
 }
