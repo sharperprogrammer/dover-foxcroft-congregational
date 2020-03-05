@@ -1,0 +1,74 @@
+#body {
+    width: 995px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #ECE8DD;
+}
+#body-left {
+    min-width: 100px;
+    max-width: 250px;
+    padding: 10px;
+
+    /* margin-right: auto; */
+    text-align: left;
+}
+#facebook-title {
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
+#facebook-iframe-460, 
+#facebook-iframe-400,
+#facebook-iframe-350 { display: none; }
+
+#body-right {
+    min-width: 100px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+#body-right h2 {
+    font-weight: normal;
+}
+
+#UCC-logo {
+    width: 104px;
+    height: 123px;
+}
+
+@media only screen and (max-width: 1050px) {
+    #body { width: 95vw; }
+}
+/* Screens 530-890px wide */
+@media only screen and (max-width: 890px) {
+    #body {
+        flex-direction: column;
+        align-items: center;
+    }
+    #body { max-width: 555px; }
+    #body-left, #body-right { margin: 50px auto; }
+}
+
+/* Screens 460-530px wide */
+@media only screen and (max-width: 530px) {
+    #facebook-iframe-460 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-350, 
+    #facebook-iframe-400 { display: none; }
+}
+/* Screens 400-460px wide */
+@media only screen and (max-width: 460px) {
+    #facebook-iframe-400 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-350, 
+    #facebook-iframe-460 { display: none; }
+}
+/* Screens 350-400px wide */
+@media only screen and (max-width: 400px) {
+    #facebook-iframe-350 { display: inline; }
+    #facebook-iframe, 
+    #facebook-iframe-400,
+    #facebook-iframe-460 { display: none; }
+}

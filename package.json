@@ -1,0 +1,21 @@
+{
+  "name": "Dover-Church-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharperprogrammer/dover-foxcroft-congregational.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharperprogrammer/dover-foxcroft-congregational/issues"
+  },
+  "homepage": "https://github.com/sharperprogrammer/dover-foxcroft-congregational#readme",
+  "dependencies": {}
+}
