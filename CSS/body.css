@@ -1,11 +1,18 @@
 #body {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
-    padding: 30px 50px;
-    display: flex;
-    justify-content: center;
+    padding: 30px 30px;
     color: black;
     background-color: #ECE8DD;
+}
+
+/* only used on Outreach page */
+.section-title {
+    margin-top: 30px;
+}
+.detail {
+    font-weight: 600;
+    padding: 10px 0px 10px 40px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -17,4 +24,5 @@
 }
 @media only screen and (max-width: 700px) {
     #body { width: 80vw; padding: 5vw; }
+    .detail { padding: 10px 2vw; }
 }
