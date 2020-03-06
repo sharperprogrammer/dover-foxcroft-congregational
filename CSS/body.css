@@ -21,7 +21,7 @@
 .photo-plus-detail img { margin-bottom: 20px; }
 .photo-plus-detail p { margin-left: 20px; }
 #chris-img, #stacy-img { min-width: 188px; min-height: 251px; }
-#pastor-img { min-width: "248"; min-height: "315"; }
+#pastor-img { min-width: 248px; min-height: 315px; }
 /* End of Staff styles */
 
 @media only screen and (max-width: 1050px) {
