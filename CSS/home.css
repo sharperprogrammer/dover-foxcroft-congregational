@@ -19,9 +19,10 @@
     font-weight: normal;
     padding: 10px;
 }
-#facebook-iframe-460, 
+#facebook-iframe-460,
 #facebook-iframe-400,
-#facebook-iframe-350 { display: none; }
+#facebook-iframe-350,
+#facebook-iframe-320 { display: none; }
 
 #body-right {
     min-width: 100px;
@@ -41,7 +42,7 @@
 @media only screen and (max-width: 1050px) {
     #body { width: 95vw; }
 }
-/* Screens 530-890px wide */
+/* Screens 531-890px wide */
 @media only screen and (max-width: 890px) {
     #body {
         flex-direction: column;
@@ -51,24 +52,35 @@
     #body-left, #body-right { margin: 50px auto; }
 }
 
-/* Screens 460-530px wide */
+/* Screens 461-530px wide */
 @media only screen and (max-width: 530px) {
     #facebook-iframe-460 { display: inline; }
-    #facebook-iframe, 
-    #facebook-iframe-350, 
+    #facebook-iframe,
+    #facebook-iframe-320,
+    #facebook-iframe-350,
     #facebook-iframe-400 { display: none; }
 }
-/* Screens 400-460px wide */
+/* Screens 401-460px wide */
 @media only screen and (max-width: 460px) {
     #facebook-iframe-400 { display: inline; }
-    #facebook-iframe, 
-    #facebook-iframe-350, 
+    #facebook-iframe,
+    #facebook-iframe-320,
+    #facebook-iframe-350,
     #facebook-iframe-460 { display: none; }
 }
-/* Screens 350-400px wide */
+/* Screens 351-400px wide */
 @media only screen and (max-width: 400px) {
     #facebook-iframe-350 { display: inline; }
-    #facebook-iframe, 
+    #facebook-iframe,
+    #facebook-iframe-320,
+    #facebook-iframe-400,
+    #facebook-iframe-460 { display: none; }
+}
+/* Screens 320-350px wide */
+@media only screen and (max-width: 350px) {
+    #facebook-iframe-320 { display: inline; }
+    #facebook-iframe,
+    #facebook-iframe-350,
     #facebook-iframe-400,
     #facebook-iframe-460 { display: none; }
 }
