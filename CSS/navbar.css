@@ -32,7 +32,7 @@
     padding-left: 4em;
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 881px) {
     #ham-nav, .hamburger-menu-icon, #ham-nav:checked~ul {
         display: none;
     }
