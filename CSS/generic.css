@@ -8,10 +8,16 @@ body {
     background-color: #162F5C;
 }
 
-#title {
+#title, #sub-title {
     margin: 20px;
     text-align: center;
     color: white;
+}
+
+/* Only exists on the Home page. Reads - "An Open & Affirming..." Negative margin
+     ensures that it is directly beneath the Title */
+#sub-title {
+  margin-top: -20px;
 }
 
 #header {
@@ -60,6 +66,7 @@ body {
     }
     #header { width: 650px; }
     #header-right-text { height: auto; }
+    #sub-title { margin-top: -10px; }
 }
 @media only screen and (max-width: 700px) {
     #header { width: 95vw; }
